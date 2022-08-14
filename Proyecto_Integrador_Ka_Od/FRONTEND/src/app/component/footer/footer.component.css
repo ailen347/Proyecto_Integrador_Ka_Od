@@ -1,0 +1,17 @@
+.row{
+    background-color: antiquewhite
+}
+
+footer{
+    color:#2c2c2c;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 1px -1px 7px #2c2c2c;
+
+}
+
+#copyright{
+    margin-top: 20px;
+}

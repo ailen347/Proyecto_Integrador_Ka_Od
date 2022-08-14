@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.redes{
+    margin-right: 1em;
+}
+
+#logoAP{
+    width: 230px;
+}
+
+img {
+    width: 50px;
+    padding: 2px;
+
+}
+
+.btn{
+    border-width: 2px;
+    margin-left: 12px;
+}
+
+/*---Para la vista de celular---*/
+@media(max-width:575px){
+    .container {
+        flex-direction: column;
+    }
+    
+    .redes {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            align-content: space-between;
+            margin-block: 0.2em;
+    }
+    
+    .redes img {
+            margin: 0em;
+    }
+    
+    .btn {
+            margin: 0.15em;
+    }
+}
+
